@@ -77,7 +77,7 @@ add(3)(4) === 7
 
 7. Замыкания
 ```js
-const button = document.getElementById('button');
+const button = document.querySelector('button');
 
 for (var i = 0; i < 3; i++) {
     button.addEventListener('click', function (e) {
