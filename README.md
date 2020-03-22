@@ -85,7 +85,7 @@ for (var i = 0; i < 3; i++) {
     });
 }
 
-button.trigger(‘click’);
+button.trigger('click');
 ```
 
 ## React
