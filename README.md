@@ -42,6 +42,11 @@ function Person(age) {
 }
 
 const vasya = new Person(13);
+
+setTimeout(function() {
+    console.log(vasya.age); // ???
+}, 5000);
+
 ```
 
 3. Вопрос про прототипы
